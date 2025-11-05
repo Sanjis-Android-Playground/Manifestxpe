@@ -95,11 +95,11 @@
     <project path="hardware/qcom-caf/sm8750/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.0-caf-sm8750" remote="lineage" />
     <project path="hardware/qcom-caf/sm8750/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.0-caf-sm8750" remote="lineage" />
     <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="lineage" groups="qcom,lanai-vendor" revision="lineage-23.0-caf" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="xpe" groups="qcom,lanai-vendor" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="xpe" groups="qcom,lanai-vendor" revision="xpe-20.0" />
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,lanai-video" remote="lineage"  revision="lineage-22.2" />
-    <project path="vendor/qcom/common" name="android_vendor_qcom_common" clone-depth="1" remote="xpe" />
+    <project path="vendor/qcom/common" name="android_vendor_qcom_common" clone-depth="1" remote="xpe" revision="xpe-20.0" />
     <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-22.2" />
     <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="lineage" groups="qcom,kailua-audio" revision="lineage-22.0" />
     <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />

@@ -98,7 +98,7 @@
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
-    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="xpe" />
+    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="xpe" revision="xpe-20.0" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="xpe" />
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="xpe" />
 
@@ -131,9 +131,9 @@
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" revision="xpe-20.0" />
 
     <!-- vendor qcom -->
-    <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="xpe" />
-    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="xpe" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />
+    <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="xpe" revision="xpe-20.0" />
+    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="xpe" revision="xpe-20.0" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-20.0" />
     <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3" remote="xpe" revision="xpe-20.0" >
         <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
         <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
@@ -156,5 +156,5 @@
     </project>
     <project path="vendor/qcom/opensource/thermal-hal" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0" />
     <project path="vendor/qcom/opensource/thermal-hal-legacy" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0-legacy-um" />
-    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrato" groups="qcom,lanai-vendor" remote="xpe" revision="xpe-20.0-aosp" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,lanai-vendor" remote="xpe" revision="xpe-20.0-aosp" />
 </manifest>
